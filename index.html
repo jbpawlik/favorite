@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/boostrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Things</title>
+</head>
+<body>
+  <div class="container">
+    <form id="favoritethings">
+      <h3>What are your favorite things?</h3>
+      <div class="form-group">
+        <label for="fav1" name="things">A favorite thing:</label>
+        <input id="fav1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="fav2" name="things">Another favorite thing:</label>
+        <input id="fav2" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="fav3" name="things">Another favorite thing:</label>
+        <input id="fav3" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <div>
+      <p>Your favorite things are <span id="thingOutput"></span></p>
+    </div>
+    <div>
+      <p>If you like those things, you should try <span id="newThing"></span></p>
+    </div>
+    <div>
+      <p>Really adventurous people try <span id="adventure"></span></p>
+    </div>
+    <div>
+      <p>If you're scared of that, check out <span id="scared"></span></p>
+    </div>
+    <div>
+      <p>If you don't have much time, try just <span id="time"></span></p>
+    </div>
+    <div>
+      <p>Here's a list of your favorite things plus mine:</p>
+      <ul id ='ourfaves'></ul>
+    </div>
+  </div>
+</body>
+</html>
